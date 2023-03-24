@@ -30,7 +30,7 @@ class GildedRose(object):
                 if item.quality > 0:
                     item.quality = item.quality -2
                 if item.quality > 0 and item.sell_in < 0:
-                    item.quality = item.quality - 4
+                    item.quality = item.quality - 2
                             
             if item.name == "Aged Brie":
                 if item.quality < 50:
